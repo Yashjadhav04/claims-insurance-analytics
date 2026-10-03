@@ -1,0 +1,58 @@
+# Core Data Processing
+pandas==2.1.3
+numpy==1.24.3
+scipy==1.11.4
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+snowflake-connector-python==3.4.1
+
+# Data Quality
+great-expectations==0.17.12
+pydantic==2.5.0
+
+# Machine Learning
+scikit-learn==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.0
+
+# Visualization & Reporting
+plotly==5.17.0
+matplotlib==3.8.2
+seaborn==13.0
+tableau-server-client==3.23.0
+
+# API & Web
+requests==2.31.0
+flask==3.0.0
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Orchestration
+apache-airflow==2.7.3
+apache-airflow-providers-postgres==5.9.0
+apache-airflow-providers-common-sql==1.10.0
+
+# Configuration & Logging
+python-dotenv==1.0.0
+pyyaml==6.0.1
+logging-json==0.0.3
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-postgresql==5.0.0
+
+# Code Quality
+black==23.12.1
+pylint==3.0.3
+mypy==1.7.1
+flake8==6.1.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3.post1
+tqdm==4.66.1
+
